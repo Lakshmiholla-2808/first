@@ -1,0 +1,986 @@
+{
+   "mean":55673.4,
+   "count":140156,
+   "__CLASS__":"Adzuna::API::Response::JobSearchResults",
+   "results":[
+      {
+         "salary_min":66788.33,
+         "company":{
+            "display_name":"Amazon",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "latitude":51.511529,
+         "id":"2671981842",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNjcxOTgxODQyIn0.zy3g6j8yGeXCWqTeD2rANgpJnADT7eHYj9MzEAa8JTU",
+         "salary_max":66788.33,
+         "title":"Risk Analyst",
+         "longitude":-0.23839,
+         "contract_type":"permanent",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2671981842?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=CB1E5AA9697F257C870D4837D75272C13B900303",
+         "location":{
+            "display_name":"West London, London",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "London",
+               "West London"
+            ]
+         },
+         "description":"At Amazon we believe that every day is still day one. A day to take a first step. A day to look forward to new challenges. And today is that day for you. It's your day to be part of something great. A day to make your ideas come to life. And your day to join a company that redefines itself every day. That's the energy and passion behind Amazon. Amazon Transportation Services (ATS) is looking for a detail-oriented, analytical, innovative Leader to lead regulatory and financial risk mitigation in\u2026",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         },
+         "salary_is_predicted":"1",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "contract_time":"full_time",
+         "created":"2021-11-23T16:27:51Z"
+      },
+      {
+         "latitude":51.2467,
+         "id":"2671981930",
+         "company":{
+            "display_name":"Amazon",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "salary_max":49816.32,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNjcxOTgxOTMwIn0.u7n6a4g-46art-LGtHs2w0vpDHIIzE3hIG6-U5CEArg",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Leeds, Maidstone",
+            "area":[
+               "UK",
+               "South East England",
+               "Kent",
+               "Maidstone",
+               "Leeds"
+            ]
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2671981930?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=B3CD334FB7E1EE3BA1F5C3582C884AF97785D81A",
+         "title":"Health & Safety Coordinator",
+         "longitude":0.606947,
+         "contract_type":"permanent",
+         "salary_min":49816.32,
+         "salary_is_predicted":"1",
+         "category":{
+            "tag":"it-jobs",
+            "label":"IT Jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "contract_time":"full_time",
+         "created":"2021-11-23T16:27:52Z",
+         "description":"At Amazon, we strive to be earth\u2019s most customer-centric company where people can find and discover anything they want to buy online. We hire the world\u2019s brightest minds, offering them an environment in which they can relentlessly improve the experience for customers. Innovation and creativity are built into the DNA of the company and are encouraged at all levels of employment. Every day we solve complex technical and business problems with ingenuity and simplicity. We\u2019re making history and the\u2026"
+      },
+      {
+         "description":"Ivy Exec, in partnership with SG Analytics , a leading provider of data-centric research and contextual analytics services, is conducting a study about ERP software solutions . In order to participate please follow this link : https://www.surveymonkey.com/r/MR213339?user_id&source_idJB If you choose to participate, you will be part of a 30-minute telephone interview and receive a $200 honorarium as a thank you for your time and expertise, upon completion of the interview.",
+         "created":"2021-12-08T15:40:31Z",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         },
+         "salary_is_predicted":"1",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "salary_min":53813.74,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMDQxNzg3MyIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.sZyg1HqB519Toz3UmAzj76EKAV9ayrHQB88GrnQhK3A",
+         "salary_max":53813.74,
+         "longitude":-0.172608,
+         "title":"Director of IT - Market Research Study - $200 Compensated Consultation",
+         "contract_type":"contract",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2720417873?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=450D848D4443EB0FA8AB36E65961F26653FB3F49",
+         "location":{
+            "area":[
+               "UK",
+               "London",
+               "North West London",
+               "Swiss Cottage"
+            ],
+            "display_name":"Swiss Cottage, North West London",
+            "__CLASS__":"Adzuna::API::Response::Location"
+         },
+         "company":{
+            "display_name":"Ivy Exec",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "id":"2720417873",
+         "latitude":51.552457
+      },
+      {
+         "salary_min":29309.96,
+         "latitude":51.490031,
+         "id":"2720417586",
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Ivy Exec"
+         },
+         "salary_max":29309.96,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzIwNDE3NTg2In0.2af30_KaUt3IrqejIrHByBDvJwB3Yq-ZPPIwO47s-wc",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2720417586?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=A7E203D8BEC4977EDF14D4FBCE9549F8DB147E0C",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Brompton, South West London",
+            "area":[
+               "UK",
+               "London",
+               "South West London",
+               "Brompton"
+            ]
+         },
+         "title":"Chief Information Officer (CIO) - Market Research Study - $200 Compensated Consultation",
+         "longitude":-0.166921,
+         "contract_type":"contract",
+         "description":"Ivy Exec, in partnership with SG Analytics , a leading provider of data-centric research and contextual analytics services, is conducting a study about ERP software solutions . In order to participate please follow this link : https://www.surveymonkey.com/r/MR213339?user_id&source_idJB If you choose to participate, you will be part of a 30-minute telephone interview and receive a $200 honorarium as a thank you for your time and expertise, upon completion of the interview.",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "salary_is_predicted":"1",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "created":"2021-12-08T15:40:26Z"
+      },
+      {
+         "description":"Ivy Exec, in partnership with SG Analytics , a leading provider of data-centric research and contextual analytics services, is conducting a study about ERP software solutions . In order to participate please follow this link : https://www.surveymonkey.com/r/MR213339?user_id&source_idJB If you choose to participate, you will be part of a 30-minute telephone interview and receive a $200 honorarium as a thank you for your time and expertise, upon completion of the interview.",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "salary_is_predicted":"1",
+         "category":{
+            "tag":"it-jobs",
+            "label":"IT Jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "created":"2021-12-08T15:40:53Z",
+         "salary_min":51963.1,
+         "id":"2720418934",
+         "latitude":51.484018,
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Ivy Exec"
+         },
+         "location":{
+            "display_name":"Chelsea, South West London",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "London",
+               "South West London",
+               "Chelsea"
+            ]
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2720418934?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=4047B66953FA1D2BCEA2DE27D467B9530CF76829",
+         "title":"Director of IT - Market Research Study - $200 Compensated Consultation",
+         "longitude":-0.182878,
+         "contract_type":"contract",
+         "salary_max":51963.1,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMDQxODkzNCIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.X2YU19J8jVtBol5O9MVMrp2wNuokPMOK22TrSU7WI-o"
+      },
+      {
+         "description":"Do you want to work in a compiler team made up of outstanding engineers, whose mission is to enable our customers to build efficient, safe and secure software for the latest Arm IP by providing reliable, easy-to-use toolchains? We work closely with our partners, who rely on our tools to support their future successes across many markets, including networking, storage, automotive and medical. We are looking for experienced Build and Release Engineers for an exciting and rewarding position within\u2026",
+         "salary_min":41976.23,
+         "location":{
+            "area":[
+               "UK",
+               "Eastern England",
+               "Essex",
+               "Saffron Walden",
+               "Littlebury"
+            ],
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Littlebury, Saffron Walden"
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2727643856?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=DBE601A2A8BB6ABAB389DD743A9CC320CF63E3F1",
+         "created":"2021-12-10T15:38:53Z",
+         "longitude":0.214903,
+         "title":"Senior/Staff Build and Release Engineer - Compilers",
+         "salary_max":41976.23,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzI3NjQzODU2In0.UtOoNBQ4J_Hcat57CGvP-UrfsF58IwmXGbZi9v7I9Lw",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2727643856",
+         "latitude":52.040561,
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"ARM"
+         },
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "salary_is_predicted":"1"
+      },
+      {
+         "salary_min":32337.94,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMDQxNzY2NiIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.EmgWcLMAG0e7Oux1SL_IPOEvCfUsu5p1O7LXXmi30bE",
+         "salary_max":32337.94,
+         "longitude":-0.132625,
+         "title":"Network Administrator - Market Research Study - $300 Compensated Consultation",
+         "contract_type":"contract",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2720417666?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=3880612B979454EA2C4FBA02EA34E5BBDED25988",
+         "location":{
+            "area":[
+               "UK",
+               "London",
+               "South West London",
+               "South Lambeth"
+            ],
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"South Lambeth, South West London"
+         },
+         "company":{
+            "display_name":"Ivy Exec",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "latitude":51.47652,
+         "id":"2720417666",
+         "description":"IvyExec , in partnership with BPI , an independent market research agency, is conducting a study with IT professionals that have knowledge about DDI solutions - the integration of DNS, DHCP, and IPAM (IP address management) into a unified service or solution that comprises the foundation of core network services. In order to participate please follow this link : https://www.surveymonkey.com/r/MR212735?user_id&source_idjb If you qualify and choose to participate, you will be part of a 45-minute \u2026",
+         "created":"2021-12-08T15:40:27Z",
+         "salary_is_predicted":"1",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job"
+      },
+      {
+         "description":"Job title: Business Analyst (Regulatory / FCA) Job Type: Contract IR35 Status: Outside Start date: ASAP Duration: 6 Months Location: Manchester or Remote Hours of work: 37.5 Applicants must have experience of the following: Regulatory knowledge and knowledge / experience of FCA regulations Conducting initial gap analysis reviews in a regulatory setting Creation of deliverables across multiple regulatory projects based on those reviews Requirements elicitation and documentation Process definitio\u2026",
+         "salary_min":43011.97,
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746726207?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=318918824A5B1884C89CE747CB76F53D62552061",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Manchester, Greater Manchester",
+            "area":[
+               "UK",
+               "North West England",
+               "Greater Manchester",
+               "Manchester"
+            ]
+         },
+         "created":"2021-12-17T09:19:13Z",
+         "title":"Business Analyst (Regulatory / FCA)",
+         "salary_max":43011.97,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjcyNjIwNyIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.4SuIFuVX7naUy0zQbV4CsqghGyo4blRCat-eDOGq9YI",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746726207",
+         "company":{
+            "display_name":"Managed Solutions",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "salary_is_predicted":"1",
+         "category":{
+            "tag":"it-jobs",
+            "label":"IT Jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         }
+      },
+      {
+         "salary_max":125228,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2NzA1NTAyIn0.ETzE1juh2_eEkbpJzQWyy4c8ldMXfV0J90CBHljBREE",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Angel, North London",
+            "area":[
+               "UK",
+               "London",
+               "North London",
+               "Angel"
+            ]
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746705502?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=2B2A1E7550E9AC8AF8007B1280382D72D14B8927",
+         "created":"2021-12-17T09:16:55Z",
+         "longitude":-0.097966,
+         "title":"Project Managers - SC cleared - Voice, Cisco, Data",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "salary_is_predicted":"0",
+         "latitude":51.515741,
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746705502",
+         "company":{
+            "display_name":"Morson Talent",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "description":"Our client is looking for SC cleared Project Managers for a number of roles based in the South West of England but with flexibility to work remotely. The opportunities cover Voice, Data Architecture and Cisco skillsets Job description: \u2022 Accountable for leading the delivery of project(s), programme or portfolio that are large, complex and represent significant benefit / risk to our customers. The delivery will be highly visible and recognisable. \u2022 Accountable for building complex matrix deliver\u2026",
+         "salary_min":125228
+      },
+      {
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Boston Consulting Group"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "latitude":51.503378,
+         "id":"2725680582",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "salary_is_predicted":"1",
+         "title":"Product Manager - Joint Ventures, Alliances and Digital Ecosystems",
+         "longitude":-0.139134,
+         "created":"2021-12-09T23:59:21Z",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2725680582?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=BC3B11C246A9C4384F5CF8997EA40D832F7BBD06",
+         "location":{
+            "display_name":"London, UK",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "London"
+            ]
+         },
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzI1NjgwNTgyIn0.oHrCQgheLXvhf-YI9gcUPumgM8AuzbT9P_DihsJZ1tM",
+         "salary_max":67941.84,
+         "salary_min":67941.84,
+         "description":"WHAT YOU'LL DO We are seeking a strong candidate to work closely with the Global Leader of JADE Topic, the Global Leader of Joint Venture, Alliances Topic, as well as a broader leadership & expert team, as the Product Manager for Joint Venture, Alliances, and Digital Ecosystems. As a Practice Area Offer Manager (internally referred as Product Manager), you will be in charge to lead and coordinate the different Product Management activities, to support the development of our business, in particu\u2026"
+      },
+      {
+         "description":"As an SBC and SIP Specialist you will be responsible for the design of our core voice platform SBC components Your new company It has a key role in British society, fostering change and leading technology innovation. From delivering the Olympics, to supporting the emergency services, to investing more into research than any other UK technology company, we take pride in everything we do - and in the people who work here. We're now a global company operating at the forefront of the information ag\u2026",
+         "salary_min":65000,
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         },
+         "salary_is_predicted":"0",
+         "latitude":52.058897,
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746685259",
+         "company":{
+            "display_name":"Hays Talent Solutions",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "salary_max":65000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2Njg1MjU5In0.YtFTOvblBB9qRVD4skHg1Azb36efIIjCZE9xnGx4YD0",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Martlesham Heath, Ipswich",
+            "area":[
+               "UK",
+               "Eastern England",
+               "Suffolk",
+               "Ipswich",
+               "Martlesham Heath"
+            ]
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746685259?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=6A4C2B161D13F2819841595FF924325FBC3075A9",
+         "created":"2021-12-17T09:14:39Z",
+         "longitude":1.279026,
+         "title":"SBC and SIP Specialist Network Designer"
+      },
+      {
+         "salary_max":124800,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyODExMDIyOCIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.LWcIzz9EVNz733ES7-VtkfZxPfdn_ZS20KUsuCNvVQw",
+         "location":{
+            "area":[
+               "UK",
+               "London",
+               "West London",
+               "Paddington"
+            ],
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Paddington, West London"
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2728110228?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=8C54DB3B843D448E6996BBD68C976598D418DE12",
+         "contract_type":"permanent",
+         "longitude":-0.180543,
+         "title":"Product Designer",
+         "latitude":51.518112,
+         "id":"2728110228",
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Lumio"
+         },
+         "salary_min":76800,
+         "contract_time":"part_time",
+         "created":"2021-12-10T19:01:46Z",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "label":"IT Jobs",
+            "tag":"it-jobs"
+         },
+         "salary_is_predicted":"0",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "description":"Do you want to join an innovative, creative and inclusive culture, playing a pivotal role in growing Lumio, an exciting start-up recognised as a Top 100 Fintech Disruptor, ahead of Monzo and Chip, with coverage from Forbes, Tech Nation and Sifted by FT? We are looking for a freelance or part-time Product Designer to join Lumio on a 2-3 month contract. You will work 2/3 days a week and partner with our Chief Product Officer, Tom , and our Growth Product Manager George, to craft and lead the desi\u2026"
+      },
+      {
+         "salary_min":75000,
+         "description":"NetSuite Development Team Lead \u2013 NetSuite, Technical Lead, Tech Lead, Developer, SuiteScript, Technical Consultant, Web Developer, Software Engineer, Systems Engineer, User Event, Suitelet, Map/Reduce, Celigo, DellBoomi, SQL, PowerBI, API, PHP, JavaScript, Lead Developer \u2013 Remote - \u00a370,000 - \u00a380,000 Our client, a leading NetSuite partner, is looking for a NetSuite Development Team Lead to join them on a permanent basis. Candidates must be strong within the technical side of NetSuite and ideally\u2026",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2NzQ0OTA0In0.hkoPDVFTQ-AJKiOYfGiOKEg-Md3OSy7aRbAgDZTp-jQ",
+         "salary_max":75000,
+         "title":"NetSuite Development Team Lead - Home-Based",
+         "location":{
+            "area":[
+               "UK"
+            ],
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"UK"
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746744904?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=1E7D9EAC65141DA7DDB69805E4C601F62B374256",
+         "created":"2021-12-17T09:21:03Z",
+         "salary_is_predicted":"0",
+         "category":{
+            "tag":"it-jobs",
+            "label":"IT Jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Catch Resource Management"
+         },
+         "id":"2746744904",
+         "__CLASS__":"Adzuna::API::Response::Job"
+      },
+      {
+         "salary_max":45000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2NzA1OTE3In0.ocoWDiGi2XqCDarm239uIXDYG_1NVxpok6fdKRmS3lo",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746705917?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=640196BAE344E3B81AADE3777B46707FCCABB3C0",
+         "location":{
+            "area":[
+               "UK",
+               "North West England",
+               "Merseyside",
+               "Liverpool",
+               "Low Hill"
+            ],
+            "display_name":"Low Hill, Liverpool",
+            "__CLASS__":"Adzuna::API::Response::Location"
+         },
+         "created":"2021-12-17T09:16:59Z",
+         "title":"PHP Developer",
+         "longitude":-2.994413,
+         "salary_is_predicted":"0",
+         "category":{
+            "tag":"it-jobs",
+            "label":"IT Jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746705917",
+         "latitude":53.404234,
+         "company":{
+            "display_name":"Hyperloop Recruitment",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "description":"FullStack Developer Liverpool \u00a330,000 - \u00a340,000 PHP | Symfony/Laravel/ Yii | AWS | | RESTful API The Company Our client are an exciting Insurance tech solution providing expertise and insight for Global Insurance companies. Theyve recently siloed their tech team with a focus on building their core system with plans to license their software globally. They have various exciting modules in the pipeline to build out across their core platform adopting cutting edge tech across the Front and Backend\u2026",
+         "salary_min":45000
+      },
+      {
+         "salary_min":80000,
+         "description":".NET Developer - Global Sports Company - Cambridge (Tech stack: .NET Developer, .NET 5, C#, Blazor, Azure, JavaScript, HTML5, CSS3, Agile, Programmer, Engineer, Architect, .NET Developer) Our client is a global sports brand that operates in over 115 countries worldwide. They are the biggest sports company in Europe and the second largest on the planet Over the past 30 years they have been providing high performance athletes with the tools they need to remain at their peak. They are looking to b\u2026",
+         "title":".NET Developer - Global Sports Company - Cambridge",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746686702?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=F51BD0E8A7B45B4130FE1CF2C5A9AEDEDFEBBF40",
+         "created":"2021-12-17T09:14:50Z",
+         "location":{
+            "display_name":"Cambridge, Cambridgeshire",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "Eastern England",
+               "Cambridgeshire",
+               "Cambridge"
+            ]
+         },
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjY4NjcwMiIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.RIO85WeYgbCBjjUekTIAENCK4K7-6VnPWt7PPiIKGVw",
+         "salary_max":80000,
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Noir"
+         },
+         "id":"2746686702",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "salary_is_predicted":"0",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         }
+      },
+      {
+         "salary_max":85000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjY4NzcxOCIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.yYcMSxXmVOCH7J4x9IXWzx2aMivGrnFdQkcOYEKVoJs",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746687718?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=2ECEF42F183A4559319A78CE60837201BB18BBC1",
+         "location":{
+            "area":[
+               "UK",
+               "North West England",
+               "Greater Manchester",
+               "Manchester"
+            ],
+            "display_name":"Manchester, Greater Manchester",
+            "__CLASS__":"Adzuna::API::Response::Location"
+         },
+         "created":"2021-12-17T09:14:57Z",
+         "title":"SOFTWARE ARCHITECT",
+         "salary_is_predicted":"0",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         },
+         "id":"2746687718",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "company":{
+            "display_name":"Searchability  Ltd",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "description":"SOFTWARE ARCHITECT CLOUD / AGILE / SQL / JAVA BRAND NEW ROLE FOR A SOFTWARE ARCHITECT WITH A LEADING NATIONAL SECURITY COMPANY IN MANCHESTER Salary ranges from \u00a385,000 - \u00a390,000 DOE Manchester based in an easily accessible location (hybrid working) Working with the latest technologies in an exciting sector Excellent role to help develop and grow other developers Opportunity to be sponsored through security clearance To apply please call 0771 998 3823 or email WHO WE ARE? We are a well-establish\u2026",
+         "salary_min":85000
+      },
+      {
+         "description":"I'm hiring a (lead Developer) lead fullstack developer. Preferably SC Cleared but MUST be SC eligible (eg British citizen with a British Passport) - skilled with MongoDB OR PostgreSQL, Full stack Azure development Azure RedHat OpenShiftNode; Python; Java; Apache servers. Preferably with SC clearance but we can get you clearance if your are a British citizen with a British passport. Contract lengths are renewable 9 month assignments based remotely inside IR35.",
+         "salary_min":130446,
+         "salary_is_predicted":"0",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "latitude":51.502767,
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746697730",
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"LEYSEN ASSOCIATES"
+         },
+         "salary_max":130446,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjY5NzczMCIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.x_M7ekZc4C3kGmtV9l3MhzH--6Cr8g5YNHgYTCcSiKY",
+         "location":{
+            "area":[
+               "UK",
+               "London",
+               "South East London",
+               "Southwark"
+            ],
+            "display_name":"Southwark, South East London",
+            "__CLASS__":"Adzuna::API::Response::Location"
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746697730?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=4F8B3B559999DC143A487A2A26A04BD06C78F595",
+         "created":"2021-12-17T09:16:08Z",
+         "title":"Full Stack Developer",
+         "longitude":-0.092569
+      },
+      {
+         "title":"IT Engineer",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Taunton, Somerset",
+            "area":[
+               "UK",
+               "South West England",
+               "Somerset",
+               "Taunton"
+            ]
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746692350?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=F9E03DF03144BA5E81CC6A3B4038BD8FB19A1D4C",
+         "created":"2021-12-17T09:15:32Z",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjY5MjM1MCIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.nYKrnvTAz1FrffWpfAUFniasbaFmG6Vn6e3zuMP7Qvw",
+         "salary_max":31307,
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Concept Information Technology Limited"
+         },
+         "id":"2746692350",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "salary_is_predicted":"0",
+         "salary_min":31307,
+         "description":"Concept Resourcing are currently recruiting for multiple Field Engineers across the UK to work on various IT Project Activity including EPOS, banking and IT installations, repairs, upgrades installations of Front of House POS for various retail and banking chains We are looking engineers across the UK to work within their regionalised area on a 12 month contract The project will run start mid - end January 2022 and last for 12 months from your start date, there is a strong chance this will exte\u2026"
+      },
+      {
+         "salary_min":45000,
+         "description":"BI Developer Full Time / Permanent Location: Telford 1 day a week and rest remote home working Salary \u00a345k-\u00a350k  Benefits Package As a trusted, approved and preferred recruitment partner to this prestigious consultancy organisation, we have been asked to assist in the recruitment of a BI Developer. Our client offers excellence in career growth, professional development and a coveted personalised benefits package. The BI Developer will be responsible for supporting the technical elements of the \u2026",
+         "company":{
+            "display_name":"Deerfoot I.T. Resources Limited",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "id":"2746727325",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "salary_is_predicted":"0",
+         "category":{
+            "tag":"it-jobs",
+            "label":"IT Jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "title":"BI Developer",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746727325?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=0FE2F8016E2EEF430022CFE9B1BF80495E059DFD",
+         "created":"2021-12-17T09:19:19Z",
+         "location":{
+            "area":[
+               "UK",
+               "North West England",
+               "Greater Manchester",
+               "Manchester"
+            ],
+            "display_name":"Manchester, Greater Manchester",
+            "__CLASS__":"Adzuna::API::Response::Location"
+         },
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjcyNzMyNSIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.A62FL-B8GBiCg_n8zgoB-ZCpg7AP13pDaE9RFX8qgHM",
+         "salary_max":45000
+      },
+      {
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Deerfoot I.T. Resources Limited"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746700787",
+         "latitude":51.431,
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "label":"IT Jobs",
+            "tag":"it-jobs"
+         },
+         "salary_is_predicted":"0",
+         "longitude":-2.18579,
+         "title":"Unix Support Engineer",
+         "location":{
+            "area":[
+               "UK",
+               "South West England",
+               "Wiltshire",
+               "Corsham"
+            ],
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Corsham, Wiltshire"
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746700787?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=23B8EBBD8ED8260E667E1D9F228D0F7D90356251",
+         "created":"2021-12-17T09:16:26Z",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjcwMDc4NyIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.0hgPW13rCXv2zQOCUBoEvVPc3WYVW_Q1Xopvia_x2gk",
+         "salary_max":40000,
+         "salary_min":40000,
+         "description":"Unix Support Engineer -\u00a340k - \u00a355k DOE Global Consultancy Inverness / Corsham Security Clearance Requirement: SC Cleared or Willing to undergo clearance We are currently assisting this prestigious IT organisation in the recruitment of a number of Unix Support Engineers to join the Unix Server support team in the Inverness or Corsham office. In this role you will be responsible for the day-to-day management and support of large-scale enterprise servers. Role overview: Support for UNIX e.g. HP-UX\u2026"
+      },
+      {
+         "description":"The Opportunity: You would join the Electrification and Advanced Power Solutions team as a validation engineer, leading the development of FMEA (Failure Mode Effect Analysis) of the digital systems that support the customer and our internal logistics and product planning. You will then develop and supporting the execution of the validation working closely with the digital NPI team. Job Responsibilities and Duties: Develop failure mode analysis and validation plans with support relevant subject \u2026",
+         "salary_min":68484,
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         },
+         "salary_is_predicted":"0",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746709053",
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Randstad UK Holding"
+         },
+         "salary_max":68484,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjcwOTA1MyIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.zPI5JIHcWX6PVEJXvAglySFi2IFxert4lMIHo2xde90",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746709053?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=485ED5C6A4D1CC787EB5FEE7881BACFDBE336239",
+         "created":"2021-12-17T09:17:31Z",
+         "location":{
+            "area":[
+               "UK",
+               "Eastern England",
+               "Peterborough"
+            ],
+            "display_name":"Peterborough, Eastern England",
+            "__CLASS__":"Adzuna::API::Response::Location"
+         },
+         "title":"Validation Engineer"
+      },
+      {
+         "description":"Calling allyou Java developers BrightPurple aredelightedto be offeringamazing positionsfor self-motivated Full Stack Java Developersto join well-establishedcompaniesin the heart of Edinburgh on a permanent basis. This is a fantastic opportunity for a passionate full stack developerlookingto boost their career and develop their skillsets further. All in amazing, go forwardindustries,such astheLegal andNetwork securitysectors. What youll bring to the role: Proficiency in Java Solid experience in \u2026",
+         "salary_min":60000,
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746686534?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=3F2F1129DC6DAA86CEBC8C12F6CAAE05FDD20A1B",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Edinburgh, Scotland",
+            "area":[
+               "UK",
+               "Scotland",
+               "Edinburgh"
+            ]
+         },
+         "created":"2021-12-17T09:14:48Z",
+         "title":"Java Developer",
+         "longitude":-3.327942,
+         "salary_max":60000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2Njg2NTM0In0.BQmQ0tLcYqUXPRvA-XcCmdoQ5Z_niqscc9yVVNsT4S4",
+         "id":"2746686534",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "latitude":55.943116,
+         "company":{
+            "display_name":"Bright Purple",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "label":"IT Jobs",
+            "tag":"it-jobs"
+         },
+         "salary_is_predicted":"0"
+      },
+      {
+         "company":{
+            "display_name":"10XTECH LIMITED",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "id":"2746705467",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "salary_is_predicted":"0",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "label":"IT Jobs",
+            "tag":"it-jobs"
+         },
+         "title":"Front End Developer",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746705467?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=08B1F5624335428214F9B596C0253D6A63F95DF9",
+         "location":{
+            "area":[
+               "UK",
+               "North West England",
+               "Greater Manchester",
+               "Manchester"
+            ],
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Manchester, Greater Manchester"
+         },
+         "created":"2021-12-17T09:16:54Z",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjcwNTQ2NyIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.67W2yjFhSn-p6l-xqlg7VqqvIUI4ZfwZm6afznUdnv8",
+         "salary_max":70000,
+         "salary_min":70000,
+         "description":"Front End Developer One of the leading e-commerce organisations that have had exponential growth throughout the pandemic and are still dominating the market is looking to take on a range of new front-end developers to their team from Junior to Senior level. Just during 2021, they have managed to generate over \u00a3100 million in revenue, which is an incredible figure as they have only been established since 2018 This is an unbelievable opportunity for a front-end developer to work alongside an ambi\u2026"
+      },
+      {
+         "created":"2021-12-17T09:16:54Z",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746705369?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=4DCBA3EDD05E7B54CF799BB4FF30A3D2315A0BA3",
+         "location":{
+            "display_name":"Oxford, Oxfordshire",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "South East England",
+               "Oxfordshire",
+               "Oxford"
+            ]
+         },
+         "title":"Software Developer - Scala, Java, C#",
+         "longitude":-1.25588,
+         "salary_max":60000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2NzA1MzY5In0.Ii8FCXeU1A82h-gBwcfmMbXEoMD3TL5wM3Ni7bXcMYA",
+         "id":"2746705369",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "latitude":51.7523,
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Corriculo Ltd"
+         },
+         "salary_is_predicted":"0",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         },
+         "description":"Software Developer - Scala, Java, C# A Polyglot Software Developer with experience in Scala, Java or C# is required to join a software house in the heart of Oxford. This is a varied role that will suit a Software Developer who is keen to work with a flexible technology stack and learn new things This role is suitable to anyone from a Graduate Software Developer up to a Senior level. The Role The Software Developer will be joining a company where every project is pure greenfield development, wor\u2026",
+         "salary_min":60000
+      },
+      {
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Noir"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746686602",
+         "latitude":54.991191,
+         "category":{
+            "tag":"it-jobs",
+            "label":"IT Jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "salary_is_predicted":"0",
+         "title":".NET Developer - Global Fitness Movement - Wallsend",
+         "longitude":-1.534204,
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"Wallsend, Tyne & Wear",
+            "area":[
+               "UK",
+               "North East England",
+               "Tyne & Wear",
+               "Wallsend"
+            ]
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746686602?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=FF430358C4A958692756E18FD4535961A605845C",
+         "created":"2021-12-17T09:14:49Z",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjY4NjYwMiIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.aSkHBji_3wSX4IkmUeaNi0XGZa-x87H__FFgzjheaio",
+         "salary_max":60000,
+         "salary_min":60000,
+         "description":".NET Developer - Global Fitness Movement - Wallsend (Tech stack: .NET Developer, .NET 5, ASP.NET, C#, React, Angular 11, Microservices, Vue.js, TypeScript, Azure, Web API 2, Agile, SQL Server 2019, Programmer, Engineer, Architect, .NET Developer) Born in 2012 in California, our client began development on an app and website that made finding and booking classes effortless for fitness goers across the state. The company is now changing how people live their lives, bringing together a community o\u2026"
+      },
+      {
+         "description":"Elevation Recruitment Group are delighted to be retained as the recruitment partner of Pandrol in the appointment of an ERP Specialist / Supply Chain Manager. This is a fantastic opportunity to join a local business, that support the world's best rail fastening systems and service market and distributes Globally. Part of Delachaux Group, Pandrol is a business founded on the passion of innovation, and their unique heritage is still at the heart of their business today. With over 100 years of pro\u2026",
+         "salary_min":70000,
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746727027",
+         "latitude":53.313202,
+         "company":{
+            "display_name":"Elevation Recruitment Group",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "salary_is_predicted":"0",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "tag":"it-jobs",
+            "label":"IT Jobs"
+         },
+         "created":"2021-12-17T09:19:17Z",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746727027?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=5374E2818B48059DFA498C1BCF60EEBF19C85888",
+         "location":{
+            "area":[
+               "UK",
+               "East Midlands",
+               "Nottinghamshire",
+               "Worksop"
+            ],
+            "display_name":"Worksop, Nottinghamshire",
+            "__CLASS__":"Adzuna::API::Response::Location"
+         },
+         "longitude":-1.121,
+         "title":"ERP Specialist / Supply Chain Manager",
+         "salary_max":70000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2NzI3MDI3In0.OuUQqUKYioOYv5c1VZHnUIH4zAlDcqqGLNDZf9238l4"
+      },
+      {
+         "salary_min":40000,
+         "description":".NET Developer, .NET 5 - Social Networking Site - London (Tech stack: .NET Developer, .NET 5, C#, Web API 2, Entity Framework, Microservices, Azure, Programmer, Engineer, Architect, .NET Developer) Our client is the world's largest social-networking web site and they have ambitions to become the biggest web site in the world Their global presence currently stretches across 25 countries and their planned expansion for the next 12 months will see another 10 countries added to this list as well as\u2026",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjY4Njg4NiIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.P7cU0y2TlSXrNuPOFXTqnXlqiNG9PbiWnlftFaE7F5M",
+         "salary_max":40000,
+         "title":".NET Developer, .NET 5 - Social Networking Site - London",
+         "longitude":-0.08371,
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746686886?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=D86C48D574D59CE73F3EC18B920F30896542DD91",
+         "created":"2021-12-17T09:14:51Z",
+         "location":{
+            "display_name":"Monument, Central London",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "London",
+               "Central London",
+               "Monument"
+            ]
+         },
+         "salary_is_predicted":"0",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "company":{
+            "display_name":"Noir",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746686886",
+         "latitude":51.509924
+      },
+      {
+         "salary_max":80000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2NjkxODAzIn0.r8Ra-QCMWCxhXexsU-RqAo5oDRZOfp-yNgSgHwQlDms",
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746691803?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=B72CF4A56A212F476A6B3EAF5878E0D50FED2903",
+         "location":{
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "display_name":"South Hackney, East London",
+            "area":[
+               "UK",
+               "London",
+               "East London",
+               "South Hackney"
+            ]
+         },
+         "created":"2021-12-17T09:15:28Z",
+         "title":"Senior UX Designer, London",
+         "longitude":-0.041842,
+         "salary_is_predicted":"0",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "label":"IT Jobs",
+            "tag":"it-jobs"
+         },
+         "id":"2746691803",
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "latitude":51.5439,
+         "company":{
+            "display_name":"Menlo Park Health Tech Recruitment",
+            "__CLASS__":"Adzuna::API::Response::Company"
+         },
+         "description":"Background - Apply your UX Design skills in an environment where you will make a difference for thousands of patients each year. Senior User Experience Designer required to join a rapidly expanding design team that support surgical communities worldwide. You will be part of a growing UX team and be expected to collaborate across the business with Product Managers, Marketers, Software Engineers, Visual Designers, and others. You should be passionate about understanding and designing for customer\u2026",
+         "salary_min":80000
+      },
+      {
+         "description":"System Testers Salary \u00a320-28k depending on experience We will consider part time for this role. We are a software development company founded over 27 years ago, our prime focus is delivering great software. Our company mantra is were only as good as our employees which is why we invest in their development, have regular performance reviews and organise regular social events to encourage staff to relax and mix. Its important that we get the right people for our team so at interview stage youll g\u2026",
+         "salary_min":28000,
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "id":"2746705538",
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"GROWTH HUB BUSINESS SOLUTIONS LTD"
+         },
+         "salary_is_predicted":"0",
+         "category":{
+            "label":"IT Jobs",
+            "tag":"it-jobs",
+            "__CLASS__":"Adzuna::API::Response::Category"
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746705538?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=D7E9DAA6665C3BEA96401D3A06DA88B6A5F67ED6",
+         "location":{
+            "display_name":"Coventry, West Midlands",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "West Midlands",
+               "Coventry"
+            ]
+         },
+         "created":"2021-12-17T09:16:55Z",
+         "title":"System Tester - Exasoft",
+         "salary_max":28000,
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjc0NjcwNTUzOCIsInMiOiI5Sk40a1lkaDdCR29LX1liOUhMVWdBIn0.C7ZEi0TRQLY694NEJ1ukpNr0yV2AYDsLJHzyY3eYEug"
+      },
+      {
+         "salary_min":35000,
+         "description":"A great career opportunity to join a globally operating automated material handling equipment supplier as a Systems Administrator. As a Systems Administrator, you will work in a small UK team, and be part of a larger global help desk team with the responsibility of supporting customers all over the world with their Servers and Networks in automated distribution centre environments. Training will be provided (possibly in Germany) and there are great future career potentials for the right individ\u2026",
+         "title":"Systems Administrator",
+         "longitude":-2.273862,
+         "location":{
+            "display_name":"University Of Keele, Keele",
+            "__CLASS__":"Adzuna::API::Response::Location",
+            "area":[
+               "UK",
+               "West Midlands",
+               "Shropshire",
+               "Newcastle",
+               "Keele",
+               "University Of Keele"
+            ]
+         },
+         "redirect_url":"https://www.adzuna.co.uk/jobs/land/ad/2746688386?se=9JN4kYdh7BGoK_Yb9HLUgA&utm_medium=api&utm_source=2d08dd77&v=47E03D1DFC19EEA3CF019B6B6123A6EAA3232496",
+         "created":"2021-12-17T09:15:02Z",
+         "adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOUpONGtZZGg3QkdvS19ZYjlITFVnQSIsImkiOiIyNzQ2Njg4Mzg2In0.X1Qj6otDsCeKqW4BzvvLtJ23tY7LHHRVI4sPFroAuXA",
+         "salary_max":35000,
+         "company":{
+            "__CLASS__":"Adzuna::API::Response::Company",
+            "display_name":"Ruth Wagstaff Recruitment"
+         },
+         "__CLASS__":"Adzuna::API::Response::Job",
+         "latitude":53.007651,
+         "id":"2746688386",
+         "category":{
+            "__CLASS__":"Adzuna::API::Response::Category",
+            "label":"IT Jobs",
+            "tag":"it-jobs"
+         },
+         "salary_is_predicted":"0"
+      }
+   ]
+}
