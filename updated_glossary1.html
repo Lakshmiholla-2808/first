@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><title>Glossary of Foundational Cybersecurity Terms</title></center>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    #glossary {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 90%; /* Responsive width */
+        max-width: 800px; /* Limit maximum width for larger screens */
+    }
+
+    #search-container {
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #search-input {
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+    
+
+   
+
+    .alphabet-buttons button:disabled {
+        background-color: #ccc;
+        color: #666;
+        cursor: not-allowed;
+    }
+
+    #terms-container {
+        margin-top: 20px;
+    }
+
+    .term {
+        margin-bottom: 10px;
+    }
+
+    .term h3 {
+        margin-bottom: 5px;
+    }
+ .alphabet-buttons button {
+        background-color: #78A9FF; /* Gray color */
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+#search-button {
+        background-color: #8A3FFC; /* shade of purple color */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+   
+    #show-all-button {
+        background-color: #8A3FFC; /* Blue color */
+	border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+
+        /* display: block;
+        margin: 0 auto 20px; */
+    }
+    .glossary_header{
+        text-align: center;
+    }
+    @media only screen and (max-width: 600px) {
+        #glossary {
+            width: 90%;
+        }
+    }
+</style>
+
+</head>
+<body>
+
+<div id="glossary">
+    <div class="glossary_header">
+    <h2>Glossary of Foundational Cybersecurity Terms</h2>
+	  <i>To download the glossary in PDF format, click <a href="https://practice-exam-for-isc2-certified-in-cybersecurit-4ca90de1223835.gitlab.io/readings/CC_Glossary.md.html" target = "_blank" rel="noopener noreferrer"><b>here</b></a>.</i> </p>
+    	
+	<div id="search-container">
+        <label for="search-input">Search for a term:</label>
+        <input type="text" id="search-input" placeholder="Enter the term to search and click Search...">
+        <button id="search-button" onclick="searchTerm()">Search</button>
+        <button id="show-all-button" onclick="showAllTerms()">Show All Terms</button>
+    </div>
+</div>
+    
+    <div class="alphabet-buttons" id="alphabet-buttons-container">
+        <!-- Alphabet buttons will be added dynamically here -->
+    </div>
+
+    <div id="terms-container">
+        <!-- Terms will be dynamically added here -->
+    </div>
+</div>
+
+
+<script>
+const glossary = {'A': [{'term': 'Affinity grouping\xa0\xa0', 'definition': 'A technique used to discover co-occurrences in relationships.'}, {'term': 'Amazon Web Services (AWS)\xa0', 'definition': 'A cloud-computing platform that offers economical online app development tools and services.'}, {'term': 'Analytical strategies', 'definition': 'A long-term decision for an organization to use data to take actions to satisfy organizational vision and mission. It includes research and analysis for internal and external environments, evaluating data, and using strategic analysis tools.'}, {'term': 'Analytics technologies', 'definition': 'Employs a variety of data-driven methodologies and techniques to address queries, identify patterns, forecast outcomes, and automate decision-making processes.'}, {'term': 'Anonymization\xa0', 'definition': 'The process of modifying personal data so it is no longer possible to identify the individuals associated with it.'}, {'term': 'Apache Airflow\xa0', 'definition': 'An open-source workflow management platform for data engineering pipelines.'}, {'term': 'Apache Beam\xa0', 'definition': 'An open-source, unified programming model for batch and streaming data processing pipelines.'}, {'term': 'Apache HBase\xa0', 'definition': 'A non-relational database that runs on Hadoop, providing real-time access to large data sets.'}, {'term': 'Apache Kafka\xa0', 'definition': 'An open-source software platform used to handle real-time data feeds.'}, {'term': 'Apache Spark Streaming\xa0', 'definition': 'An extension of the core Spark API that allows for fault-tolerant stream processing of live data streams with high throughput and scalability.'}, {'term': 'Apache Storm\xa0', 'definition': 'A framework for distributed stream processing computation primarily written in the Clojure programming language.'}, {'term': 'Application programming interface (API)\xa0', 'definition': 'APIs are predefined rules that allow software applications to communicate with each other, process data transfers, and enable the sharing of application data and functionality between companies and external parties.'}, {'term': 'Association rule mining\xa0', 'definition': 'A technique that helps establish our relationship between two data events.'}, {'term': 'Atomicity, Consistency, Isolation, and Durability (ACID) Compliance\xa0', 'definition': 'A group of characteristics that ensure dependable and uniform processing of transactions in a database system.'}, {'term': 'Authentication\xa0', 'definition': 'The process of confirming the identity of a user or application seeking access to data.'}, {'term': 'Authorization\xa0', 'definition': 'The process of determining whether an authenticated user has the right to perform an operation.'}, {'term': 'AWS data pipeline', 'definition': 'Web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals.'}, {'term': 'Azure data factory', 'definition': 'Cloud-based ETL and data integration service that allows you to create data-driven workflows for orchestrating data movement and transforming data at scale.'}], 'B': [{'term': 'BeautifulSoup\xa0', 'definition': 'A Python library to get data out of HTML, XML, and other markup languages.'}, {'term': 'Benchmarking', 'definition': 'A process to measure your business\x92s success compared to similar organizations to identify any performance gaps or areas of improvement.'}, {'term': 'Big data stores\xa0', 'definition': 'A larger, more complex data set, especially from new data sources.'}, {'term': 'Big data\xa0', 'definition': 'A dynamic, large, and disparate volume of data being created by people,?tools, and machines.'}, {'term': 'Bokeh\xa0', 'definition': 'A Python library that provides interactive charts and plots and is known for delivering high-performance interactivity over large or streaming datasets. Bokeh offers flexibility for applying interaction, layouts, and different styling options to visualization.'}, {'term': 'Business analyst', 'definition': 'Data professionals who bridge the gap between business objectives and technical solutions. They identify and document business requirements, conduct feasibility studies, and propose improvements to business processes.'}, {'term': 'Business intelligence', 'definition': 'A combination of various technologies, tools, and methodologies that gather, analyze, and transform data into meaningful information.'}, {'term': 'Business intelligence analyst', 'definition': 'Professional analyzes, models, and visualizes data to help businesses make informed decisions.'}, {'term': 'Business intelligence architect', 'definition': 'Professional who designs and implements solutions that help organizations make decisions.'}, {'term': 'Business intelligence developer', 'definition': 'Engineer who is an in charge of developing, deploying, and maintaining BI interfaces.'}, {'term': 'Business intelligence initiative', 'definition': 'Organizations can improve their revenue, operational efficiency, and competitive edge with better business decisions.'}, {'term': 'Business intelligence manager', 'definition': 'Professional who uses data analysis to suggest and execute decisions for a company.'}, {'term': 'Business intelligence platform', 'definition': 'A cluster of tools and applications that enables organizations to analyze data and get the insights to make decisions.'}, {'term': 'Business intelligence strategies', 'definition': 'Blueprint to use the data that a company generates.'}, {'term': 'Business intelligence tools', 'definition': 'Proprietary or open-source application software that is used to collect, process, analyze, sort, filter, and report large data from the systems and transform raw data into useful information.'}, {'term': 'Business intelligence\xa0', 'definition': 'A combination of various technologies, tools, and methodologies that gather, analyze, and transform data into meaningful information.'}], 'C': [{'term': 'Causal relationship\xa0', 'definition': 'A type of relationship between two events where one event influences the occurrence of another event.'}, {'term': 'Central tendency\xa0', 'definition': 'The statistical measure that represents the central value of the entire distribution or a data set.'}, {'term': 'Centralized database\xa0', 'definition': 'A database that is situated in and maintained from a single location.'}, {'term': 'Classification\xa0', 'definition': 'A technique that classifies attributes into target categories.'}, {'term': 'Cloudant\xa0', 'definition': 'A fully managed, distributed database optimized for heavy workloads and fast-growing web and mobile apps.'}, {'term': 'Clustering\xa0', 'definition': 'A technique of grouping data into clusters so they can be treated as groups.'}, {'term': 'Comma-separated values (CSV)\xa0', 'definition': 'A text-formatted file uses commas to separate the values.'}, {'term': 'Conceptual data model\xa0\xa0', 'definition': 'The model, created by business stakeholders and data architects, defines the system\x92s scope, concepts, and rules.'}, {'term': 'Confidence intervals\xa0', 'definition': 'Methodology of inferential statistics that incorporates uncertainty and sample error to create a range of values, the actual population value is likely to fall within.'}, {'term': 'Corporate performance management (CPM)\xa0', 'definition': 'Software that integrates information from various sources to support operational plans and align key performance indicators or KPIs to improve financial planning.'}, {'term': 'CouchDB\xa0', 'definition': 'An open-source NoSQL document database that collects and stores data in JSON-based document formats. Unlike relational databases, CouchDB uses a schema-free data model, which simplifies record management across various computing devices, mobile phones, and web browsers.'}, {'term': 'Customer relationship management (CRM) software\xa0', 'definition': 'Software that helps companies measure and control their lead generation and sales pipelines.'}], 'D': [{'term': 'Dash\xa0', 'definition': 'A Python framework for creating interactive web-based visualizations. Dash can be used to build highly interactive web applications using Python code.'}, {'term': 'Dashboards\xa0', 'definition': 'Tool to present a bird\x92s-eye view of the complete picture while also allowing you to drill down into the next level of information for each parameter. These are easy to comprehend by an average user, make collaboration easy between teams, and allow you to generate reports on the go.'}, {'term': 'Data abstraction\xa0', 'definition': 'The process of simplifying a set of data to represent the whole.'}, {'term': 'Data analysis\xa0', 'definition': 'Process that involves cleaning, transforming, and modeling data to uncover useful information to aid business decision-making.'}, {'term': 'Data analyst', 'definition': 'A data professional who first gathers and understands the data, then analyzes and interprets it before visualizing it and, finally, weaving it into a story.'}, {'term': 'Data analytics', 'definition': 'Focuses on extracting valuable information from data using various tools, techniques, processes, and algorithms. It includes data analysis and the interpretation of the results, keeping in mind specific business objectives.'}, {'term': 'Data cleaning\xa0', 'definition': 'An essential process of preparing and validating data before performing analysis. It is an integral part of building a data model.'}, {'term': 'Data collection\xa0', 'definition': 'The collection and evaluation of information from multiple sources to find answers, assess outcomes, and forecast trends.'}, {'term': 'Data encryption\xa0', 'definition': 'The process of translating data from a readable to an unreadable format, also known as ciphertext, to protect sensitive information during transmission or storage.'}, {'term': 'Data engineer', 'definition': 'Responsible for building robust data architecture and easily accessible data warehouses. They also design, construct, and evaluate scalable big data environments to support businesses with the key objective of providing stable and highly optimized data pipelines and systems.'}, {'term': 'Data fabric\xa0', 'definition': 'An architecture that facilitates the end-to-end integration of various data pipelines and cloud environments through intelligent and automated systems.\xa0'}, {'term': 'Data governance analyst', 'definition': 'Data professionals who help a business ensure that its data is accurate, consistent, and compliant with legal and regulatory requirements. They also plan and execute security measures to protect and preserve computer databases.'}, {'term': 'Data governance policy\xa0', 'definition': 'A document that outlines an organization\x92s data management policies, roles, responsibilities, data quality, security, and access.'}, {'term': 'Data governance\xa0', 'definition': 'The process of managing data quality to ensure that data is available, accurate, consistent, usable for the desired purpose, and secure.'}, {'term': 'Data integration', 'definition': 'Combination of technical and business processes that combine data from disparate sources into meaningful and valuable information.'}, {'term': 'Data lakes\xa0', 'definition': 'A centralized repository designed to store, process, and secure large amounts of structured, semi-structured, and unstructured data. It can store data in its native format and process a variety of data while ignoring size limits.'}, {'term': 'Data lookup\xa0', 'definition': 'A way to fill in information based on rules.'}, {'term': 'Data marts', 'definition': 'Data warehouses have data marts or subsets, which are like a partition to manage one specific business function, department, or subject area. Data marts make specific data available to a defined group of users, which allows those users to quickly access critical insights without wasting time searching through an entire data warehouse.'}, {'term': 'Data maturity\xa0', 'definition': 'The level at which an organization uses data in its day-to-day operations.\xa0\xa0'}, {'term': 'Data mining\xa0\xa0', 'definition': 'Process of uncovering patterns and other valuable information from large data sets.'}, {'term': 'Data modeling ', 'definition': 'Process of creating a visual representation of either a whole information system or parts of it to communicate connections between data points and structures.'}, {'term': 'Data modeling tool', 'definition': 'Software applications that help you to design, create, and manage data models.'}, {'term': 'Data privacy\xa0\xa0', 'definition': 'Protection of personal data from those who should not have access to it and the ability of individuals to determine who can access their personal information.'}, {'term': 'Data profiling\xa0', 'definition': 'The process used to analyze data in a data warehouse for structure, content, relationships, and derivation rules. Profiling identifies anomalies, assesses data quality, and discovers, registers, and assesses metadata.'}, {'term': 'Data refinery\xa0', 'definition': 'A tool that helps to explore data residing in a spectrum of data sources.'}, {'term': 'Data reporting\xa0', 'definition': 'The gathering of raw data from various sources and transforming it into meaningful, easy-to-understand information to gain valuable insights into business performance.'}, {'term': 'Data repository\xa0', 'definition': 'Also termed a data archive or library, it refers?to?a data set identified to be mined for reporting and analysis.'}, {'term': 'Data science\xa0', 'definition': 'Focuses on understanding the data. This involves data analysis, beginning with data loading, exploring, and cleaning. It creatively explores data, coming up with new solutions and inventions.'}, {'term': 'Data scientist', 'definition': 'Data professionals who develop algorithms, build predictive models, and uncover patterns and trends in large data sets. They apply statistical analysis, especially inferential statistics, machine learning, and predictive modeling, to extract insights from data and make predictions.'}, {'term': 'Data security\xa0', 'definition': 'The practice of protecting digital information, including personal information, from unauthorized access, tampering, or theft throughout its entire lifecycle.'}, {'term': 'Data source\xa0', 'definition': 'The physical or digital location where the data is held in a data table, object, or other storage format.'}, {'term': 'Data storage\xa0', 'definition': 'The process of saving digital information using computer devices facilitates the efficient completion of various digital tasks.'}, {'term': 'Data streams\xa0', 'definition': 'The process of transmitting continuous data and feeding it into stream processing software to derive valuable insights.'}, {'term': 'Data visualization', 'definition': 'Graphical representation of information and data. It helps data visualization to understand trends, outliers, and patterns in data.'}, {'term': 'Data warehouse\xa0', 'definition': 'A storage architecture that pulls data from many sources into a single data repository for sophisticated analytics and decision support.'}, {'term': 'Data warehousing\xa0', 'definition': 'The process of pulling together data from many different sources into a single data repository for sophisticated analytics and decision support.'}, {'term': 'Data wrangling\xa0', 'definition': 'An iterative process that involves data exploration, transformation, and validation, making it available for a credible and meaningful?analysis.'}, {'term': 'Database as a service\xa0', 'definition': 'A cloud-computing service that allows users to access and use a cloud database system without purchasing and setting up their own hardware, installing their own database software, or managing the database themselves.'}, {'term': 'Database Management System (DBMS)\xa0', 'definition': 'Software to store and retrieve users\x92 data by considering the security of their information.'}, {'term': 'Decision trees\xa0', 'definition': 'A tree structure with multiple branches, each representing a probable occurrence, helps build classification models. This technique helps to build a clear understanding of the relationship between input and output.'}, {'term': 'Denodo\xa0', 'definition': 'A unified virtual data layer that allows enterprise users to access data across formats, protocols, and locations using techniques like search.'}, {'term': 'Descriptive analysis', 'definition': 'The process of utilizing statistical techniques to explain or summarize a specific set of data. Descriptive analysis is also called descriptive statistics.'}, {'term': 'Descriptive analytics\xa0', 'definition': 'A type of analytics that uses historical and current data to spot any trends and relationships between that data.'}, {'term': 'Descriptive statistics\xa0', 'definition': 'Statistics to summarize information about the sample to present data in a meaningful way, allowing simpler interpretation of the data.'}, {'term': 'Diagnostic analytics\xa0', 'definition': 'A type of analytics that helps identify the reason an event occurred. It lets you discover hidden correlations and connections between variables, determine causal relationships, detect anomalies, and isolate patterns.'}, {'term': 'Dispersion\xa0', 'definition': 'The measure of variability in a data set.'}, {'term': 'DocumentDB\xa0', 'definition': 'A NoSQL database service that supports document data structures with some MongoDB 3.6 and 4.0 compatibility.'}, {'term': 'DynamoDB\xa0', 'definition': 'A type of database developed by Amazon Web Services (AWS).'}], 'E': [{'term': 'E-commerce ', 'definition': 'Platform for buying and selling products, services, transmitting funds and data over the internet.'}, {'term': 'Enterprise resource planning (ERP) systems\xa0', 'definition': 'A type of software system that enables businesses to automate and efficiently manage their key business processes to gain optimal performance.'}, {'term': 'Entity-relationship model (E-R model)\xa0', 'definition': 'A high-level data model is created to define the data elements and their relationships for a specific system. It develops a conceptual design for the database and presents a simple and easy-to-design data view.'}, {'term': 'Extract, load, and transport (ETL) process\xa0', 'definition': 'A process that extracts, loads, and transforms data from multiple sources to a data warehouse or other unified data repository.'}], 'F': [{'term': 'Flat files', 'definition': 'Collection of data that is stored specifically in a two-dimensional database. It usually contains a series of records (or lines), where each record is usually a sequence of fields.'}], 'G': [{'term': 'Global Positioning Systems (GPS)\xa0\xa0', 'definition': 'A radio navigation system that accurately determines location, time, and velocity regardless of weather conditions.'}, {'term': 'Google DataPrep\xa0', 'definition': 'An intelligent cloud data service allows visually exploring,\xa0cleaning, and preparing both structured and unstructured data for analysis.'}], 'H': [{'term': 'Hadoop Distributed File System (HDFS)\xa0', 'definition': 'A storage system for big data that runs on multiple commodity hardware devices connected?through a network.?HDFS provides scalable and reliable big data storage by partitioning files over multiple?nodes.'}, {'term': 'Hadoop\xa0', 'definition': 'A collection of tools that provides distributed storage and processing of big data.'}, {'term': 'Hierarchical model\xa0', 'definition': 'A data model in which the data are organized into a tree-like structure.'}, {'term': 'Hive\xa0', 'definition': 'A data warehouse for data query and analysis built on top of Hadoop.'}, {'term': 'Hypothesis testing\xa0', 'definition': 'Methodology of inferential statistics that uses data from a sample to test a hypothesis.'}], 'I': [{'term': 'IBM Cognos Analytics\xa0', 'definition': 'An end-to-end analytics solution known for its superior visualizations and overlaying data on the physical world using its geospatial capabilities.'}, {'term': 'IBM InfoSphere DataStage', 'definition': 'ETL tool and part of the IBM Information Platforms Solutions suite and IBM InfoSphere. It uses a graphical notation to construct data integration solutions.'}, {'term': 'Inferential statistics\xa0', 'definition': 'Statistics to make inferences or generalizations about the broader population.'}], 'J': [{'term': 'Java\xa0', 'definition': 'A programming language known for its platform independence, which allows Java programs to run on different operating systems without modification.'}, {'term': 'JavaScript', 'definition': 'High-level scripting or programming language that empowers the implementation of complex and sophisticated functionalities on web pages.'}, {'term': 'JavaScript object notation (JSON)\xa0', 'definition': 'An open standard file format that uses readable text to store and transmit data objects consisting of attributes.'}, {'term': 'Jupyter Notebook\xa0', 'definition': 'An open-source web application widely used for data cleaning and transformation, statistical modeling, and data visualization.'}], 'K': [{'term': 'Key performance indicators (KPI)\xa0', 'definition': 'A performance measure for a specific objective that provides targets, milestones, and insights to help teams and individuals make better decisions.'}], 'L': [{'term': 'Linux\xa0', 'definition': 'An open-source operating system developed from Unix.'}, {'term': 'Loatame\xa0', 'definition': 'A data management platform.'}, {'term': 'Logical data model\xa0', 'definition': 'Provides detailed descriptions of data elements and is utilized to create visual representations of data entities, attributes, keys, and relationships.'}, {'term': 'Looker\xa0', 'definition': 'A business intelligence app and big data analytics platform that explore, analyze, and share real-time business analytics.'}], 'M': [{'term': 'Machine learning engineers', 'definition': 'Typically, programmers who construct the algorithms, systems, models, and frameworks that enable machines to learn and perform functions independently and effectively.'}, {'term': 'Machine learning\xa0', 'definition': 'The branch of artificial intelligence (AI) and computer science focuses on using data and algorithms to imitate how humans learn, gradually improving accuracy. It helps systems learn and improve at forecasting, much like how people learn from experience.'}, {'term': 'Matplotlib\xa0', 'definition': 'A widely used Python data visualization library. It provides different kinds of 2D and 3D plots and the flexibility to create plots in several different ways.'}, {'term': 'Mean\xa0', 'definition': 'A measure of central tendency. The arithmetic average is the sum divided by the number of cases.'}, {'term': 'Median\xa0', 'definition': 'The middle value of a data set arranged in ascending order of values.'}, {'term': 'Metadata management\xa0', 'definition': 'Best-practice processes and technologies that manage the metadata of your data. Metadata management helps provide insights for more effective data management.'}, {'term': 'Metrics\xa0', 'definition': 'Another measure to track the performance of specific business processes. They help provide context to the performance of key business goals but are not critical to its success like key performance indicators (KPIs).'}, {'term': 'Mode\xa0', 'definition': 'The most frequently occurring value. If several values share the greatest occurrence frequency, each is a mode.'}, {'term': 'MongoDB\xa0', 'definition': 'An open source, nonrelational database management system (DBMS) that uses flexible documents instead of tables and rows to process and store various forms of data.\xa0'}, {'term': 'MySQL\xa0', 'definition': 'An open-source relational database management system (RDBMS).\xa0'}], 'N': [{'term': 'Network model\xa0', 'definition': 'A database model conceived as a flexible way of representing objects and their relationships.\xa0'}, {'term': 'NoSQL database\xa0', 'definition': 'A non-tabular database that stores data with different data storage tables than relational tables.\xa0'}, {'term': 'NumPy\xa0', 'definition': 'A tool for mathematical computing and data preparation in Python. It offers a host of built-in functions and capabilities for data mining.\xa0'}], 'O': [{'term': 'Online analytical processing (OLAP)', 'definition': 'A software that is used to conduct multidimensional analysis on large volumes of data from a\xa0data warehouse, data mart, or other centralized data store.'}, {'term': 'Online Transaction Processing (OLTP)\xa0\xa0', 'definition': 'A computerized system that allows real-time data processing and immediate response to users\x92 queries.\xa0'}, {'term': 'OpenRefine\xa0', 'definition': 'An open-source tool that allows you to import and export data in various formats, such as TSV, CSV, XLS, XML, and JSON. Using OpenRefine, you can clean data, transform it from one format to another, and extend data with web services and external data.\xa0'}, {'term': 'Oracle Cloud\xa0', 'definition': 'A cloud platform that offers complete cloud application suites across software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS).\xa0'}, {'term': 'Oracle database\xa0', 'definition': 'A multi-model database management system generally used for online transaction processing (OLTP), data warehousing, and both workloads.\xa0'}, {'term': 'Outlier detection\xa0', 'definition': 'A technique that helps find patterns and data that are not normal or unexpected.\xa0'}], 'P': [{'term': 'Pandas\xa0', 'definition': 'A Python library used to work with data sets.\xa0'}, {'term': 'Pattern recognition\xa0', 'definition': 'The discovery of regularities or commonalities in data\xa0'}, {'term': 'Performance management\xa0', 'definition': 'The process of tracking and evaluating employee performance against pre-determined objectives.\xa0'}, {'term': 'Physical data model\xa0', 'definition': 'A database-specific model that represents relational data objects (for example, tables, columns, primary and foreign keys) and their relationships.\xa0'}, {'term': 'Platform as a service\xa0', 'definition': 'A cloud computing model that provides customers a complete cloud platform, hardware, software, and infrastructure, for developing, running, and managing applications without the cost, complexity, and inflexibility that often come with building and maintaining that platform on-premises.\xa0'}, {'term': 'Population\xa0\xa0', 'definition': 'A discrete group of people or things that can be identified by at least one common characteristic for purposes of data collection and analysis.\xa0'}, {'term': 'PostgreSQL\xa0', 'definition': 'An open-source database that has a strong reputation for its reliability, flexibility, and support of open technical standards\xa0'}, {'term': 'Power BI\xa0', 'definition': 'A cloud-based business analytics service from Microsoft that enables you to create reports and dashboards.\xa0\xa0'}, {'term': 'PowerShell\xa0', 'definition': 'A cross-platform command-line shell and scripting language designed for automating tasks and managing configurations.\xa0'}, {'term': 'Predictive analytics\xa0', 'definition': 'A type of analytics used to predict future outcomes. It relies on historical data and employs various techniques such as statistical modeling, data mining, and machine learning for predictions.\xa0'}, {'term': 'Predictive modeling\xa0', 'definition': 'A statistical method of using past and current data to predict future trends and outcomes.\xa0'}, {'term': 'Prescriptive analytics\xa0', 'definition': 'A type of data analytics that recommends the optimal course of action to achieve a specific goal, drawing from inputs from descriptive, diagnostic, and predictive analytics processes.\xa0'}, {'term': 'Probability theory\xa0', 'definition': 'The mathematical framework that can help you find the likelihood of specific outcomes.\xa0'}, {'term': 'Python', 'definition': 'An agile, dynamically typed, expressive, open-source programming language that supports multiple programming philosophies, including procedural, object-oriented, and functional. Python is a popular high-level programming language that is easily extensible through the use of third-party packages and often allows powerful functions to be written with few lines of code.'}], 'R': [{'term': 'R Studio\xa0', 'definition': 'A popularly used open-source integrated development environment (IDE) for working with the R programming language.\xa0'}, {'term': 'R\xa0', 'definition': 'One of the most widely used languages for performing statistical modeling and computations by statisticians and data miners.\xa0'}, {'term': 'Radio Frequency Identification (RFID) tags\xa0', 'definition': 'A method for tracking goods through their tags.\xa0'}, {'term': 'Range\xa0', 'definition': 'The distance between the smallest and largest values in\xa0data sets.\xa0'}, {'term': 'Real-time BI\xa0', 'definition': 'Processes and tools that provide up-to-the-minute information and analysis, which enables businesses to monitor KPIs in real-time.\xa0'}, {'term': 'Regression analysis\xa0', 'definition': 'Statistical methods can help find relationships between variables, such as how changes in independent variables may affect a dependent variable.\xa0'}, {'term': 'Regression\xa0', 'definition': 'A technique that helps identify the nature of the relationship between two variables, which could be causal or correlational.\xa0'}, {'term': 'Relational Database Service?(RDS)', 'definition': 'Organizes data into rows and columns, which collectively form a table. Data is typically structured across multiple tables, which can be joined together via a primary key or a foreign key.\xa0'}, {'term': 'Relational database\xa0', 'definition': 'Structured data with a well-defined schema.\xa0'}, {'term': 'Relational model\xa0', 'definition': 'An approach to managing data using a structure and language consistent with first-order predicate logic.\xa0'}, {'term': 'Return on investment (ROI)\xa0', 'definition': 'A performance measure that is used to evaluate the efficiency of an investment.\xa0'}], 'S': [{'term': 'Sample\xa0', 'definition': 'A representative selection drawn from the total population.\xa0'}, {'term': 'SAS Enterprise Miner\xa0', 'definition': 'A comprehensive, graphical workbench for data mining. It provides powerful capabilities for interactive data exploration, which enables users to identify relationships within data.\xa0'}, {'term': 'Scala\xa0', 'definition': 'A programming language designed for concise, elegant, and type-safe expression of programming patterns. This language seamlessly integrates object-oriented and functional features.\xa0'}, {'term': 'Scrapy\xa0', 'definition': 'A free and open-source web-crawling framework written in Python and developed in Cambuslang.\xa0'}, {'term': 'Selenium\xa0', 'definition': 'A testing platform for an open-source web user interface.\xa0'}, {'term': 'Self-service business intelligence (SSBI)\xa0', 'definition': 'The process, tools, or software that allows business users to ask questions about their data, get insights, and analyze data without relying on IT, BI specialists, or SQL to take business actions.\xa0'}, {'term': 'Semi-structured data\xa0', 'definition': 'Data that has some organizational properties but not a rigid?schema, such as data from emails, XML, zipped files, binary executables, and TCP/IP protocols'}, {'term': 'Sequential patterns\xa0', 'definition': 'A technique that traces a series of events that take place in a sequence.\xa0'}, {'term': 'Shiny\xa0', 'definition': 'An R package that helps build interactive web apps that you can host as standalone apps on a webpage.\xa0'}, {'term': 'Skewness\xa0', 'definition': 'The measure of whether the distribution of values is symmetrical around a central value or skewed left or right.\xa0'}, {'term': 'Snowflake schema\xa0', 'definition': 'A multi-dimensional data model, an expansion of a star schema. It breaks down dimension tables into subdimensions.\xa0'}, {'term': 'Spark\xa0', 'definition': 'A distributed data analytics framework designed to perform complex data analytics?in real-time.\xa0'}, {'term': 'Spreadsheets\xa0', 'definition': 'Applications such as Microsoft Excel and Google Sheets that have a host of features and built-in?formulae that can help you identify issues and clean and transform data.\xa0'}, {'term': 'SQL database\xa0', 'definition': 'A collection of highly structured tables where each row represents a data entity and every column represents a specific information field.\xa0'}, {'term': 'SQL server integration services (SSIS)', 'definition': "Enterprise data integration, data transformation, and data migration tool built into Microsoft's SQL Server database. It can be used for a variety of integration-related tasks, such as analyzing and cleansing data and running extract, transform, and load (ETL) processes to update data warehouses."}, {'term': 'SQL\xa0', 'definition': 'Computer language used to interact with a relational database.\xa0'}, {'term': 'Standard deviation\xa0', 'definition': 'A measure of how tightly the data is clustered around the mean.\xa0'}, {'term': 'Statistical analysis system (SAS)\xa0', 'definition': 'A programming language that provides all the tools necessary to read, write, and create system files, SAS databases, and reports.\xa0'}, {'term': 'Statistical analysis\xa0', 'definition': 'The process of collecting large volumes of data and then using statistics and other data analysis techniques to identify trends, patterns, and insights.\xa0'}, {'term': 'Statistical methods\xa0\xa0', 'definition': 'Methods useful to ensure that data is interpreted correctly and apparent relationships are meaningful and not just happening by chance.\xa0'}, {'term': 'Statistical modeling\xa0', 'definition': 'A method that uses mathematical equations to analyze data and identify patterns.\xa0'}, {'term': 'Statistical Package for Social Sciences (SPSS)\xa0', 'definition': 'Software used for advanced analytics, text analytics, trend analysis, validation of assumptions, and translation of business problems into data science solutions.\xa0'}, {'term': 'Statistical tool', 'definition': 'A tool that converts, analyzes, interprets, and uses data in different forms and purposes.'}, {'term': 'Statistics\xa0', 'definition': 'Branch of mathematics dealing with the collection, analysis, interpretation, and presentation of numerical or quantitative data.\xa0'}, {'term': 'Structured data\xa0', 'definition': 'The data that conforms to a defined structure follows a consistent order and is easily accessible to people or computer programs.\xa0'}, {'term': 'Structured query language (SQL)', 'definition': 'Computer language, which is used to interact with a relational database.'}], 'T': [{'term': 'Tableau\xa0\xa0', 'definition': 'A tool to analyze and report large amounts of data through visual representation.\xa0'}, {'term': 'Tab-separated values (TSV)\xa0', 'definition': 'A text-based file format that stores data.\xa0'}, {'term': 'Talend', 'definition': 'ETL tool for Data integration provides software solutions for data preparation, quality, integration, application integration, management, and big data. Talend has a separate product for all these solutions.'}, {'term': 'Talend Open Studio\xa0', 'definition': 'A free, open-source ETL tool for data integration and big data.\xa0'}, {'term': 'Tidyverse\xa0', 'definition': 'A collection of R packages that help you really easily load data, aggregate it at different levels, and also quickly and easily visualize it.\xa0'}, {'term': 'Time-series analysis\xa0', 'definition': 'A way of analyzing data that can help you uncover patterns, trends, and anomalies in time-based data.\xa0'}, {'term': 'Trend\xa0', 'definition': 'The general tendency of a set of data to change over time.\xa0'}, {'term': 'Trifacta wrangler\xa0', 'definition': 'An interactive cloud-based service for cleaning and transforming data. It takes messy, real-world data and cleans and rearranges it into data tables, which can then be exported to Excel, Tableau, and R.\xa0'}], 'U': [{'term': 'Unix\xa0\xa0', 'definition': 'A group of multitasking, multiuser computer operating system.\xa0'}, {'term': 'Unstructured data\xa0', 'definition': 'Typically categorized as qualitative data that cannot be processed and analyzed via conventional data tools and methods.\xa0'}], 'V': [{'term': 'Variance\xa0', 'definition': 'Defines how far away the data points fall from the center, that is, the distribution of values.\xa0'}, {'term': 'Velocity\xa0\xa0', 'definition': 'A tool to provide insights to the business about how well software delivery works and where to focus new processes, resources, or more automation.\xa0'}, {'term': 'Veracity\xa0\xa0', 'definition': 'The term "Veracity\x94 was coined by IBM to describe the challenges of managing data from disparate sources, which can be inconsistent and unreliable.\xa0'}], 'W': [{'term': 'Watson Studio refinery\xa0', 'definition': 'Available via IBM Watson Studio, it allows for discovering, cleaning, and transforming data with built-in operations. It transforms large amounts of raw data into consumable, quality information that\x92s ready for analytics.\xa0'}, {'term': 'Web scraping\xa0', 'definition': 'A technique used to collect online content and data generally gets saved in a local file so as to manipulate and analyze as needed.\xa0'}]}
+
+    
+        
+
+    function showTerms(alphabet) {
+        const termsContainer = document.getElementById('terms-container');
+        termsContainer.innerHTML = '';
+
+        const alphabetTerms = glossary[alphabet];
+        if (alphabetTerms && alphabetTerms.length > 0) {
+            alphabetTerms.forEach(termObj => {
+                const termElement = document.createElement('div');
+                termElement.classList.add('term');
+                termElement.innerHTML = `
+                    <h3>${termObj.term}</h3>
+                    <p>${termObj.definition}</p>
+                `;
+                termsContainer.appendChild(termElement);
+            });
+        } else {
+            termsContainer.innerHTML = "<p>No terms available for this alphabet.</p>";
+        }
+
+        termsContainer.style.display = 'block';
+    }
+
+    function showAllTerms() {
+        const termsContainer = document.getElementById('terms-container');
+        termsContainer.innerHTML = '';
+
+        Object.values(glossary).forEach(alphabetTerms => {
+            if (alphabetTerms && alphabetTerms.length > 0) {
+                alphabetTerms.forEach(termObj => {
+                    const termElement = document.createElement('div');
+                    termElement.classList.add('term');
+                    termElement.innerHTML = `
+                        <h3>${termObj.term}</h3>
+                        <p>${termObj.definition}</p>
+                    `;
+                    termsContainer.appendChild(termElement);
+                });
+            }
+        });
+
+        termsContainer.style.display = 'block';
+    }
+
+    function searchTerm() {
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+        const termsContainer = document.getElementById('terms-container');
+        termsContainer.innerHTML = '';
+
+        Object.values(glossary).forEach(alphabetTerms => {
+            if (alphabetTerms && alphabetTerms.length > 0) {
+                alphabetTerms.forEach(termObj => {
+                    if (termObj.term.toLowerCase().includes(searchInput) || termObj.definition.toLowerCase().includes(searchInput)) {
+                        const termElement = document.createElement('div');
+                        termElement.classList.add('term');
+                        termElement.innerHTML = `
+                            <h3>${termObj.term}</h3>
+                            <p>${termObj.definition}</p>
+                        `;
+                        termsContainer.appendChild(termElement);
+                    }
+                });
+            }
+        });
+
+        termsContainer.style.display = 'block';
+    }
+// Function to generate and download the output content as a text file
+    function downloadOutput() {
+        const outputContent = generateOutputContent(); // Generate the content
+
+        // Create a blob with the content
+        const blob = new Blob([outputContent], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+
+        // Create a link element to trigger the download
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'glossary_output.txt';
+        document.body.appendChild(a);
+        a.click();
+
+        // Cleanup
+        setTimeout(() => {
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        }, 0);
+    }
+
+    // Function to generate the content of the output
+    function generateOutputContent() {
+        let output = '';
+
+        // Iterate through glossary and append terms and definitions
+        Object.entries(glossary).forEach(([letter, terms]) => {
+            terms.forEach(termObj => {
+                output += `${termObj.term}: ${termObj.definition}\n\n`;
+            });
+        });
+
+        return output;
+    }
+
+
+    // Enable/disable alphabet buttons based on the presence of terms
+    window.onload = function() {
+        const alphabetButtonsContainer = document.getElementById('alphabet-buttons-container');
+        const alphabetLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+        for (let letter of alphabetLetters) {
+            const button = document.createElement('button');
+            button.textContent = letter;
+            button.onclick = function() {
+                showTerms(letter);
+            };
+            alphabetButtonsContainer.appendChild(button);
+
+            if (!glossary[letter] || glossary[letter].length === 0) {
+                button.disabled = true;
+            }
+        }
+    }
+</script>
+</body>
+</html>
